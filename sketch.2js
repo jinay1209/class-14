@@ -1,0 +1,14 @@
+var student = {
+    name: "Jinay",
+    grade: 7,
+    fav_subject: "science",
+    marks: [58,97,68,84,86]
+};
+function setup()
+{
+createCanvas(400,400)
+console.log(student.name);
+console.log(student.grade);
+student.grade = 8;
+console.log(student.grade);
+}
